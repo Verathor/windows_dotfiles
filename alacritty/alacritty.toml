@@ -1,0 +1,84 @@
+[terminal.shell]
+program = "C:\\program files\\powershell\\7\\pwsh.exe"
+args = ["-NoLogo"]
+
+[window]
+dynamic_title = true
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+size = 14
+
+
+# Colors (Aura Theme)
+
+# Default colors
+[colors.primary]
+background = '#15141b'
+foreground = '#edecee'
+
+# Normal colors
+[colors.normal]
+black = '#110f18'
+red = '#ff6767'
+green = '#61ffca'
+yellow = '#ffca85'
+blue = '#a277ff'
+magenta = '#a277ff'
+cyan = '#61ffca'
+white = '#edecee'
+
+# Bright colors
+[colors.bright]
+black = '#4d4d4d'
+red = '#ff6767'
+green = '#61ffca'
+yellow = '#7bff00'
+blue = '#a277ff'
+magenta = '#a277ff'
+cyan = '#61ffca'
+white = '#edecee'
+
+[colors.selection]
+text = 'CellForeground'
+background = '#29263c'
+
+[colors.cursor]
+cursor = '#a277ff'
+
+
+#
+# [colors.primary]
+# background = '#000000'
+# foreground = '#ffffff'
+#
+# [[keyboard.bindings]]
+# key = "V"
+# mods = "Control"
+# action = "Paste"
+#
+#
+# ######
+# [colors.cursor]
+# text = '#000000'
+# cursor = '#f0f3f6'
+#
+# [colors.normal]
+# black = '#7a828e'
+# red = '#ce0000'
+# green = '#26cd4d'
+# yellow = '#efff00'
+# blue = '#71b7ff'
+# magenta = '#cb9eff'
+# cyan = '#39c5cf'
+# white = '#ffffff'
+#
+# [colors.bright]
+# black = '#9ea7b3'
+# red = '#ee3434'
+# green = '#4ae168'
+# yellow = '#beffff'
+# blue = '#91cbff'
+# magenta = '#cb9eff'
+# cyan = '#39c5cf'
+# white = '#ffffff'
