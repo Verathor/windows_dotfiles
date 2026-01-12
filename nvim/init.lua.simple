@@ -1,0 +1,27 @@
+-- Basic settings
+vim.opt.number = true          -- Show line numbers
+vim.opt.relativenumber = true  -- Relative line numbers
+vim.opt.mouse = 'a'            -- Enable mouse
+vim.opt.ignorecase = true      -- Case insensitive search
+vim.opt.smartcase = true       -- Unless capital letter in search
+vim.opt.hlsearch = true        -- Don't highlight searches
+vim.opt.wrap = false           -- No line wrap
+vim.opt.breakindent = true     -- Wrapped lines keep indentation
+vim.opt.tabstop = 2            -- Tab width
+vim.opt.shiftwidth = 2         -- Indent width
+vim.opt.expandtab = false       -- Use spaces instead of tabs
+vim.opt.termguicolors = true   -- True color support
+
+-- Basic keymaps
+vim.g.mapleader = ' '          -- Set leader key to space
+
+-- Normal mode: save with Ctrl+s
+-- vim.keymap.set('n', '<C-s>', ':w<CR>')
+-- Visual mode: move selected lines
+vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
+vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
+-- Better window navigation
+vim.keymap.set('n', '<C-h>', '<C-w>h')
+vim.keymap.set('n', '<C-j>', '<C-w>j')
+vim.keymap.set('n', '<C-k>', '<C-w>k')
+vim.keymap.set('n', '<C-l>', '<C-w>l')
